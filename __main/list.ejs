@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title><%= title %></title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>
+            <h1><%= title %></h1>
+            <hr>
+            <ul>
+                <li><a href="<%= back %>">..</a></li>
+                <% for (var x=0; x<list.length; x++) { %>
+                <li><a href="<%= title + list[x] %>"><%= list[x] %></a></li>
+                <% }; %>
+            </ul>
+        </div>
+        <i>Powered by Express Web Server</i>
+    </body>
+    <style>
+        div {
+            padding: 15px;
+            display: block;
+            border: solid 1px;
+        }
+        i {
+            padding: 0px 3px;
+        }
+    </style>
+</html>
