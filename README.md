@@ -2,12 +2,6 @@
 
 Server-Express-JS is a simple server application built using the Express.js framework in Node.js.
 
-# Compatibility
-OS: Windows 10 x86_64 (above)
-Architecture: x86_64 only.
-
-This server application is designed to run on Windows OS with a 64-bit architecture, specifically on processors that support the x86_64 instruction set. It may not be compatible with other operating systems or processors.
-
 ## Usage
 
 ```code
